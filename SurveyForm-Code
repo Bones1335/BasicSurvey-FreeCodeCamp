@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <h1 id="title">This is My Survey</h1>
+  <p id="description">This is the description about why you should fill out my survey.</p>
+</head>
+  
+<form id="survey-form" action="MySurvey.txt">
+  <label for="name" id="name-label">Name</label>
+  <br>
+  <input id="name" type="text" placeholder="First LAST" required>
+  <br>
+  <br>
+  <label for="email" id="email-label">Email Address</label>
+  <br>
+  <input id="email" type="email" placeholder="e@mail.address" required>
+  <br>
+  <br>
+  <label for="number" id="number-label">Age</label>
+  <br>
+  <input id="number" type="number" placeholder="Age ex. 25" min="1" max="100">
+  <br>
+  <br>
+  <label for="dropdown">Choose a Dropdown Option</label>
+  <br>
+  <select name="dropdown" id="dropdown">
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+    <option value="option3">Option 3</option>
+    <option value="option4">Option 4</option>
+  </select>
+  <br>
+  <br>
+  <label for="radiobuttons">Choose your favorite radio button
+    <br>
+    <input type="radio" name="1-2-3-4" value="1">1
+  </label>
+  <label for="radiobuttons">
+    <br>
+    <input type="radio" name="1-2-3-4" value="2">2
+  </label>
+  <label for="radiobuttons">
+    <br>
+    <input type="radio" name="1-2-3-4" value="3">3
+  </label>
+   <label for="radiobuttons">
+    <br>
+    <input type="radio" name="1-2-3-4" value="4">4
+  </label>
+  <br>
+  <br>
+  <label for="checkboxes">Check your favorite boxes
+    <br>
+    <input type="checkbox" name="5-6-7-8" id="5" value="5">5
+  </label>
+  <label for="checkboxes">
+    <br>
+    <input type="checkbox" name="5-6-7-8" id="6" value="6">6
+  </label>
+  <label for="checkboxes">
+    <br>
+    <input type="checkbox" name="5-6-7-8" id="7" value="7">7
+  </label>
+  <label for="checkboxes">
+    <br>
+    <input type="checkbox" name="5-6-7-8" id="8" value="8">8
+  </label>
+  <br>
+  <br>
+  <label for="comments">Additional Comments:
+    <br>
+    <textarea id="comments"></textarea>
+  <br>
+  <br>
+  <button type="submit" id="submit">Submit Survey</button>
+  
+</form>  
+  
+</html>
